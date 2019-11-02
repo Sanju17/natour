@@ -1,0 +1,32 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-grey-dark;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 8px rgba($color-black, 0.2);
+}
+
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+
+  &--main {
+    display: block;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 35px;
+    animation: 1s moveInLeft ease-out;
+  }
+
+  &--sub {
+    display: block;
+    font-weight: 700;
+    letter-spacing: 17.4px;
+    font-size: 20px;
+    animation: 1s moveInRight ease-out;
+  }
+}

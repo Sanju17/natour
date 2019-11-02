@@ -1,0 +1,41 @@
+.header {
+  position: relative;
+  height: 95vh;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+
+  &::before {
+    content: "";
+    background: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.9),
+      rgba($color-primary-dark, 0.8)
+    );
+    mix-blend-mode: normal;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    animation: hueRotation 30s infinite;
+    top: 0;
+  }
+  &__logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  &__logo {
+    height: 35px;
+  }
+
+  &__heading-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 1.5rem;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

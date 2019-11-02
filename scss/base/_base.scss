@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  //setting the default value of 1rem which is 10px. By calculation: 62.5% of 16px(default font size)
+  font-size: 62.5%;
+}
+
+body {
+  padding: 3rem;
+}
