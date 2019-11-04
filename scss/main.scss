@@ -1,3 +1,7 @@
+// 1) BEM --> BLOCK, ELEMENT, MODIFIER
+// 2) 7 in 1 pattern
+// 3) if possible, define the width of the image in percentage
+
 @import "abstracts/functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
@@ -8,6 +12,13 @@
 @import "base/utilities";
 
 @import "components/buttons";
+@import "components/card";
+@import "components/composition";
+@import "components/feature-box";
 
 @import "layouts/grid";
 @import "layouts/header";
+
+@import "pages/home";
+
+// ICONS from linea.io

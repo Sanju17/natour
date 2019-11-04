@@ -4,6 +4,7 @@
   background-image: url("../img/hero.jpg");
   background-size: cover;
   background-position: top;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   &::before {
@@ -17,7 +18,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    animation: hueRotation 30s infinite;
+    // animation: hueRotation 30s infinite;
     top: 0;
   }
   &__logo-box {
